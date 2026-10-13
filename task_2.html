@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+
+    <h1>Conference Registration Form</h1>
+
+    <form action="">
+        <p>
+            Full Name:<br>
+            <input type="text" name="fullname" placeholder="Enter your full name" required>
+        </p>
+
+        <p>
+            Email Address:<br>
+            <input type="email" name="email" placeholder="Enter your email address" required>
+        </p>
+
+        <p>
+            Age:<br>
+            <input type="number" name="age" min="18" max="99" value="18" required>
+        </p>
+
+        <p>
+            Gender:<br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female
+        </p>
+
+        <p>
+            Country of Residence:<br>
+            <select name="country">
+                <option value="Malaysia" selected>Malaysia</option>
+                <option value="Korean">Korea</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Other">Other</option>
+            </select>
+        </p>
+
+        <p>
+            Areas of Interest:<br>
+            <input type="checkbox" name="interest" value="Software Development"> Software Development<br>
+            <input type="checkbox" name="interest" value="Data Science"> Data Science<br>
+            <input type="checkbox" name="interest" value="Cybersecurity"> Cybersecurity<br>
+            <input type="checkbox" name="interest" value="Artificial Intelligence"> Artificial Intelligence
+        </p>
+
+        <p>
+            Experience Level:<br>
+            <input type="radio" name="experience" value="Beginner"> Beginner<br>
+            <input type="radio" name="experience" value="Intermediate"> Intermediate<br>
+            <input type="radio" name="experience" value="Advanced"> Advanced
+        </p>
+
+        <p>
+            Comments or Questions:<br>
+            <textarea name="comments" rows="4" cols="40" placeholder="Any comments or questions?"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+
+</body>
+</html>
